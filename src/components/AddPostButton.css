@@ -1,0 +1,31 @@
+.addpost-btn {
+  position: fixed;
+  bottom: 26px;
+  right: 26px;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6366f1, #3b82f6);
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.35);
+  transition: all 0.3s ease;
+  backdrop-filter: blur(8px);
+}
+
+.addpost-btn:hover {
+  transform: scale(1.12) rotate(8deg);
+  background: linear-gradient(135deg, #3b82f6, #6366f1);
+  box-shadow: 0 10px 30px rgba(99, 102, 241, 0.45);
+}
+
+.addpost-btn:active {
+  transform: scale(0.98);
+  box-shadow: 0 4px 10px rgba(99, 102, 241, 0.25);
+}

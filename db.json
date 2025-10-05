@@ -1,0 +1,43 @@
+{
+    "sobhyPosts": [
+      {
+        "id": "1",
+        "title": "First Post",
+        "description": "This is the first post description",
+        "image": "https://picsum.photos/400/200?random=1",
+        "views": 120,
+        "author": "Ali",
+        "postedAt": "2023-01-01",
+        "authorAvatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fHww"
+      },
+      {
+        "id": "2",
+        "title": "Second Post",
+        "description": "Another post description",
+        "image": "https://picsum.photos/400/200?random=2",
+        "views": 250,
+        "author": "Sara",  
+        "postedAt": "2023-01-01",
+        "authorAvatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fHww"
+      },
+      {
+        "id": "3",
+        "title": "React Tips",
+        "description": "Learn how to use React Router and Hooks",
+        "image": "https://picsum.photos/400/200?random=3",
+        "views": 500,
+        "author": "Mohamed",
+        "postedAt": "2023-01-01",
+        "authorAvatar": "https://picsum.photos/400/200?random=3"
+      }
+    ],
+    "comments": [
+      { "id": "1", "text": "Great post!", "postId": "1" },
+      { "id": "2", "text": "Very useful, thanks", "postId": "1" },
+      { "id": "3", "text": "I like React tips", "postId": "3" }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
+  
